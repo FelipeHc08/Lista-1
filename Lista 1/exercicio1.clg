@@ -1,0 +1,16 @@
+algoritmo horaMinutos;
+// Síntese
+//  Objetivo:  Construa um algoritmo que leia um número inteiro de horas e mostre ao usuário o correspondente em minutos e segundos destas horas
+//  Entrada : hora
+//  Saída   : minuto, segundo
+
+
+principal
+	// Declarações
+inteiro hora
+	// Instruções
+    ;escreva ("insira a hora: ");
+    leia (hora);
+    escreval ("hora em minutos são: ", hora * 60);
+    escreval ("hora em segundos são: ", hora * 3600);
+fimPrincipal

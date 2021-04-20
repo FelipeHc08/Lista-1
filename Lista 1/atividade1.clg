@@ -1,0 +1,22 @@
+algoritmo escolhadaroupa;
+// Síntese
+//  Objetivo: escolher roupa adequada  
+//  Entrada : temperatura
+//  Saída   : mensagem de calor ou frio
+
+
+principal
+	// Declarações 
+	real temperatura  
+
+	// Instruções 
+	;escreva ("informe temperatura:");
+	leia (temperatura);
+	se (temperatura<=10) entao
+	escreva ("frio");
+	senao
+	escreva ("calor");
+
+		
+fimSe
+fimPrincipal

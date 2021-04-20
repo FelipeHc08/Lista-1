@@ -1,0 +1,22 @@
+algoritmo divedendoDivisor;
+// Síntese
+//  Objetivo: Construa um algoritmo que a partir da leitura de dois números forneça o resto e o quociente da divisão do 
+//primeiro pelo segundo número. 
+//  Entrada : Dividendo, divisor
+//  Saída   : Quociente, resto
+
+
+principal
+	// Declarações
+inteiro dividendo, divisor, quociente, resto;
+	// Instruções
+	escreva("Digite o valor do dividendo: ");
+	leia (dividendo);
+	escreva ("Digite o valor do divisor: ");
+	leia (divisor);
+	quociente = dividendo/divisor;
+	resto = dividendo%divisor;
+	escreval ("O valor do quociente da equação é igual a ", quociente, ", o valor do resto da equação é igual a ", resto);
+	
+
+fimPrincipal

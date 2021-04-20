@@ -1,0 +1,31 @@
+algoritmo semNome;
+// Síntese
+//  Objetivo:Leia 2 valores A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, 
+//sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0.  
+//  Entrada : Nota
+//  Saída   : Média
+
+
+principal
+	// Declarações
+	real A, B, MEDIA;
+
+	// Instruções
+	escreva("Digite o valor da nota A: ");
+	leia(A); 
+	se (A>10) entao 
+	escreval ("Valor A incompatível.");
+	senao 
+	    se (A>=0) entao
+	    escreval("Digite o valor de B: ");
+    leia (B);
+            se (B>10)entao
+            escreval ("Valor B incompatível.");
+            senao
+                se (B>=0) entao
+                escreval ("Médial igaual: ", A*3.5 + B*7.5/2);
+    fimSe            
+        fimSe    
+            fimSe
+                fimSe    
+    fimPrincipal
